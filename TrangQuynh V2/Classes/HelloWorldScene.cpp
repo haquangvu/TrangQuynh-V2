@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "AppSceneController.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -76,9 +77,5 @@ bool HelloWorld::init()
 
 void HelloWorld::menuCloseCallback(CCObject* pSender)
 {
-    CCDirector::sharedDirector()->end();
-
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    exit(0);
-#endif
+    AppSceneController::sharedInstant()->changeToMainScene();
 }

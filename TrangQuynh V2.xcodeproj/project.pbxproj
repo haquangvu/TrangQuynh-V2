@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1B95BE1931AD86005F5192 /* SettingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B95BC1931AD86005F5192 /* SettingScene.cpp */; };
+		8B1B95C51931B1CA005F5192 /* Setting in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B95C41931B1CA005F5192 /* Setting */; };
+		8B1B95C81931B61E005F5192 /* AboutScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B95C61931B61E005F5192 /* AboutScene.cpp */; };
+		8B1B95CB1931D954005F5192 /* ReadingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B95C91931D954005F5192 /* ReadingScene.cpp */; };
+		8B1B95CD19321490005F5192 /* Content in Resources */ = {isa = PBXBuildFile; fileRef = 8B1B95CC19321490005F5192 /* Content */; };
 		8B39DEE41930A07A00BDE159 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39DEE31930A07A00BDE159 /* QuartzCore.framework */; };
 		8B39DEE61930A07A00BDE159 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39DEE51930A07A00BDE159 /* OpenGLES.framework */; };
 		8B39DEE81930A07A00BDE159 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39DEE71930A07A00BDE159 /* OpenAL.framework */; };
@@ -266,9 +271,23 @@
 		8B39E2511930A07E00BDE159 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2501930A07E00BDE159 /* cpVect.c */; };
 		8B39E2581930A07E00BDE159 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2571930A07E00BDE159 /* AppDelegate.cpp */; };
 		8B39E25B1930A07E00BDE159 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E25A1930A07E00BDE159 /* HelloWorldScene.cpp */; };
+		8B39E2631930A0DF00BDE159 /* AppSceneController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2611930A0DF00BDE159 /* AppSceneController.cpp */; };
+		8B39E2661930A1E600BDE159 /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2641930A1E600BDE159 /* Constants.cpp */; };
+		8B39E2691930A2E100BDE159 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2671930A2E100BDE159 /* MainScene.cpp */; };
+		8B9D899B19310008004FA566 /* MainPage in Resources */ = {isa = PBXBuildFile; fileRef = 8B9D899A19310008004FA566 /* MainPage */; };
+		8B9D89A119310C64004FA566 /* CCScrollLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D899D19310C64004FA566 /* CCScrollLayer.cpp */; };
+		8B9D89A219310C64004FA566 /* MyRatingStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D899F19310C64004FA566 /* MyRatingStar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B1B95BC1931AD86005F5192 /* SettingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SettingScene.cpp; sourceTree = "<group>"; };
+		8B1B95BD1931AD86005F5192 /* SettingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingScene.h; sourceTree = "<group>"; };
+		8B1B95C41931B1CA005F5192 /* Setting */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Setting; path = Resources/Setting; sourceTree = "<group>"; };
+		8B1B95C61931B61E005F5192 /* AboutScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AboutScene.cpp; sourceTree = "<group>"; };
+		8B1B95C71931B61E005F5192 /* AboutScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutScene.h; sourceTree = "<group>"; };
+		8B1B95C91931D954005F5192 /* ReadingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingScene.cpp; sourceTree = "<group>"; };
+		8B1B95CA1931D954005F5192 /* ReadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingScene.h; sourceTree = "<group>"; };
+		8B1B95CC19321490005F5192 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Content; path = Resources/Content; sourceTree = "<group>"; };
 		8B39DEE01930A07A00BDE159 /* TrangQuynh V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrangQuynh V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B39DEE31930A07A00BDE159 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8B39DEE51930A07A00BDE159 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -832,6 +851,17 @@
 		8B39E2571930A07E00BDE159 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		8B39E2591930A07E00BDE159 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		8B39E25A1930A07E00BDE159 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		8B39E2611930A0DF00BDE159 /* AppSceneController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppSceneController.cpp; sourceTree = "<group>"; };
+		8B39E2621930A0DF00BDE159 /* AppSceneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSceneController.h; sourceTree = "<group>"; };
+		8B39E2641930A1E600BDE159 /* Constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
+		8B39E2651930A1E600BDE159 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8B39E2671930A2E100BDE159 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		8B39E2681930A2E100BDE159 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		8B9D899A19310008004FA566 /* MainPage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MainPage; path = Resources/MainPage; sourceTree = "<group>"; };
+		8B9D899D19310C64004FA566 /* CCScrollLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCScrollLayer.cpp; sourceTree = "<group>"; };
+		8B9D899E19310C64004FA566 /* CCScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollLayer.h; sourceTree = "<group>"; };
+		8B9D899F19310C64004FA566 /* MyRatingStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyRatingStar.cpp; sourceTree = "<group>"; };
+		8B9D89A019310C64004FA566 /* MyRatingStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRatingStar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -890,10 +920,10 @@
 		8B39DEF31930A07A00BDE159 /* TrangQuynh V2 */ = {
 			isa = PBXGroup;
 			children = (
+				8B39E2551930A07E00BDE159 /* Classes */,
 				8B39DEF41930A07A00BDE159 /* Resources */,
 				8B39DF0C1930A07B00BDE159 /* ios */,
 				8B39DF151930A07B00BDE159 /* libs */,
-				8B39E2551930A07E00BDE159 /* Classes */,
 				8B39E2531930A07E00BDE159 /* Supporting Files */,
 			);
 			path = "TrangQuynh V2";
@@ -902,6 +932,9 @@
 		8B39DEF41930A07A00BDE159 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B1B95CC19321490005F5192 /* Content */,
+				8B1B95C41931B1CA005F5192 /* Setting */,
+				8B9D899A19310008004FA566 /* MainPage */,
 				8B39DEF51930A07B00BDE159 /* CloseNormal.png */,
 				8B39DEF71930A07B00BDE159 /* CloseSelected.png */,
 				8B39DEF91930A07B00BDE159 /* Default.png */,
@@ -1976,12 +2009,37 @@
 		8B39E2551930A07E00BDE159 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8B9D899C19310C64004FA566 /* Extensions */,
 				8B39E2561930A07E00BDE159 /* AppDelegate.h */,
 				8B39E2571930A07E00BDE159 /* AppDelegate.cpp */,
 				8B39E2591930A07E00BDE159 /* HelloWorldScene.h */,
 				8B39E25A1930A07E00BDE159 /* HelloWorldScene.cpp */,
+				8B39E2621930A0DF00BDE159 /* AppSceneController.h */,
+				8B39E2611930A0DF00BDE159 /* AppSceneController.cpp */,
+				8B39E2651930A1E600BDE159 /* Constants.h */,
+				8B39E2641930A1E600BDE159 /* Constants.cpp */,
+				8B39E2681930A2E100BDE159 /* MainScene.h */,
+				8B39E2671930A2E100BDE159 /* MainScene.cpp */,
+				8B1B95BD1931AD86005F5192 /* SettingScene.h */,
+				8B1B95BC1931AD86005F5192 /* SettingScene.cpp */,
+				8B1B95C71931B61E005F5192 /* AboutScene.h */,
+				8B1B95C61931B61E005F5192 /* AboutScene.cpp */,
+				8B1B95CA1931D954005F5192 /* ReadingScene.h */,
+				8B1B95C91931D954005F5192 /* ReadingScene.cpp */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		8B9D899C19310C64004FA566 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B9D899D19310C64004FA566 /* CCScrollLayer.cpp */,
+				8B9D899E19310C64004FA566 /* CCScrollLayer.h */,
+				8B9D899F19310C64004FA566 /* MyRatingStar.cpp */,
+				8B9D89A019310C64004FA566 /* MyRatingStar.h */,
+			);
+			name = Extensions;
+			path = Classes/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2036,12 +2094,15 @@
 			files = (
 				8B39DF061930A07B00BDE159 /* Icon.png in Resources */,
 				8B39DFA61930A07B00BDE159 /* ChangeLog in Resources */,
+				8B1B95CD19321490005F5192 /* Content in Resources */,
 				8B39DEF61930A07B00BDE159 /* CloseNormal.png in Resources */,
 				8B39DF021930A07B00BDE159 /* Icon-Small.png in Resources */,
 				8B39DEFE1930A07B00BDE159 /* Icon-72.png in Resources */,
 				8B39DEFC1930A07B00BDE159 /* HelloWorld.png in Resources */,
 				8B39DF001930A07B00BDE159 /* Icon-Small-50.png in Resources */,
 				8B39DF0A1930A07B00BDE159 /* iTunesArtwork in Resources */,
+				8B9D899B19310008004FA566 /* MainPage in Resources */,
+				8B1B95C51931B1CA005F5192 /* Setting in Resources */,
 				8B39DF041930A07B00BDE159 /* Icon-Small@2x.png in Resources */,
 				8B39DEFA1930A07B00BDE159 /* Default.png in Resources */,
 				8B39DEF81930A07B00BDE159 /* CloseSelected.png in Resources */,
@@ -2093,8 +2154,10 @@
 				8B39E0E31930A07D00BDE159 /* CCTMXLayer.cpp in Sources */,
 				8B39E1581930A07D00BDE159 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				8B39E19C1930A07E00BDE159 /* CCScrollView.cpp in Sources */,
+				8B9D89A119310C64004FA566 /* CCScrollLayer.cpp in Sources */,
 				8B39E0151930A07C00BDE159 /* CCSAXParser.cpp in Sources */,
 				8B39E1841930A07D00BDE159 /* CCControlUtils.cpp in Sources */,
+				8B9D89A219310C64004FA566 /* MyRatingStar.cpp in Sources */,
 				8B39DF831930A07B00BDE159 /* CCGrabber.cpp in Sources */,
 				8B39DFEB1930A07B00BDE159 /* CCClippingNode.cpp in Sources */,
 				8B39E0A51930A07C00BDE159 /* CCVertex.cpp in Sources */,
@@ -2160,6 +2223,7 @@
 				8B39DFC31930A07B00BDE159 /* CCKeypadDelegate.cpp in Sources */,
 				8B39E17E1930A07D00BDE159 /* CCControlStepper.cpp in Sources */,
 				8B39E2291930A07E00BDE159 /* cpRatchetJoint.c in Sources */,
+				8B1B95CB1931D954005F5192 /* ReadingScene.cpp in Sources */,
 				8B39DF501930A07B00BDE159 /* ccFPSImages.c in Sources */,
 				8B39E0011930A07C00BDE159 /* CCParticleSystemQuad.cpp in Sources */,
 				8B39DF281930A07B00BDE159 /* CCActionGrid3D.cpp in Sources */,
@@ -2169,9 +2233,11 @@
 				8B39E2311930A07E00BDE159 /* cpArbiter.c in Sources */,
 				8B39DF7C1930A07B00BDE159 /* CCDrawingPrimitives.cpp in Sources */,
 				8B39E22D1930A07E00BDE159 /* cpSimpleMotor.c in Sources */,
+				8B39E2691930A2E100BDE159 /* MainScene.cpp in Sources */,
 				8B39DFB21930A07B00BDE159 /* neon_matrix_impl.c in Sources */,
 				8B39E13B1930A07D00BDE159 /* CCLabelTTFLoader.cpp in Sources */,
 				8B39E13E1930A07D00BDE159 /* CCLayerColorLoader.cpp in Sources */,
+				8B1B95C81931B61E005F5192 /* AboutScene.cpp in Sources */,
 				8B39E07C1930A07C00BDE159 /* ccShaders.cpp in Sources */,
 				8B39DFF81930A07C00BDE159 /* CCParticleBatchNode.cpp in Sources */,
 				8B39E08C1930A07C00BDE159 /* CCSpriteFrame.cpp in Sources */,
@@ -2247,6 +2313,7 @@
 				8B39E1C21930A07E00BDE159 /* AnimationStateData.cpp in Sources */,
 				8B39E00A1930A07C00BDE159 /* CCEGLViewProtocol.cpp in Sources */,
 				8B39DF791930A07B00BDE159 /* cocos2d.cpp in Sources */,
+				8B1B95BE1931AD86005F5192 /* SettingScene.cpp in Sources */,
 				8B39E0781930A07C00BDE159 /* CCShaderCache.cpp in Sources */,
 				8B39DF731930A07B00BDE159 /* CCString.cpp in Sources */,
 				8B39E1B51930A07E00BDE159 /* CCPhysicsDebugNode.cpp in Sources */,
@@ -2268,6 +2335,7 @@
 				8B39DFB81930A07B00BDE159 /* ray2.c in Sources */,
 				8B39DFC01930A07B00BDE159 /* vec4.c in Sources */,
 				8B39DFCA1930A07B00BDE159 /* CCLabelAtlas.cpp in Sources */,
+				8B39E2661930A1E600BDE159 /* Constants.cpp in Sources */,
 				8B39E0E91930A07D00BDE159 /* CCTMXTiledMap.cpp in Sources */,
 				8B39DF4D1930A07B00BDE159 /* CCDirector.cpp in Sources */,
 				8B39E11E1930A07D00BDE159 /* CCBKeyframe.cpp in Sources */,
@@ -2281,6 +2349,7 @@
 				8B39E1411930A07D00BDE159 /* CCLayerGradientLoader.cpp in Sources */,
 				8B39E2171930A07E00BDE159 /* chipmunk.c in Sources */,
 				8B39E0111930A07C00BDE159 /* CCImageCommonWebp.cpp in Sources */,
+				8B39E2631930A0DF00BDE159 /* AppSceneController.cpp in Sources */,
 				8B39E1AC1930A07E00BDE159 /* LocalStorageAndroid.cpp in Sources */,
 				8B39E1CE1930A07E00BDE159 /* AttachmentLoader.cpp in Sources */,
 				8B39E01B1930A07C00BDE159 /* AccelerometerDelegateWrapper.mm in Sources */,
@@ -2371,6 +2440,7 @@
 				GCC_PREFIX_HEADER = "TrangQuynh V2/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "TrangQuynh V2/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/vuha/Desktop/Project/TrangQuynh\\ V2/TrangQuynh\\ V2/libs/cocos2dx/platform/third_party/ios/libraries",
@@ -2381,6 +2451,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "\"TrangQuynh V2/libs/Chipmunk/include/chipmunk\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2395,6 +2466,7 @@
 				GCC_PREFIX_HEADER = "TrangQuynh V2/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "TrangQuynh V2/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/vuha/Desktop/Project/TrangQuynh\\ V2/TrangQuynh\\ V2/libs/cocos2dx/platform/third_party/ios/libraries",
@@ -2405,6 +2477,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "\"TrangQuynh V2/libs/Chipmunk/include/chipmunk\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -2430,6 +2503,7 @@
 				8B39E2601930A07E00BDE159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
