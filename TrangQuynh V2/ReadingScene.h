@@ -24,10 +24,12 @@ public:
     CREATE_FUNC(ReadingScene);
     void menuPressed(CCObject *pSender);
     void loadContent(int page);
+    void removePreviousPage();
     
     int pageIndex;
     
     CCSprite *previousPage;
     CCSprite *currentPage;
+    CCSprite *nextPage;
 };
 #endif /* defined(__TrangQuynh_V2__ReadingScene__) */

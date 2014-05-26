@@ -274,6 +274,7 @@
 		8B39E2631930A0DF00BDE159 /* AppSceneController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2611930A0DF00BDE159 /* AppSceneController.cpp */; };
 		8B39E2661930A1E600BDE159 /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2641930A1E600BDE159 /* Constants.cpp */; };
 		8B39E2691930A2E100BDE159 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E2671930A2E100BDE159 /* MainScene.cpp */; };
+		8B8A1C6B1933A0F2009FD999 /* Button in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A1C6A1933A0F2009FD999 /* Button */; };
 		8B9D899B19310008004FA566 /* MainPage in Resources */ = {isa = PBXBuildFile; fileRef = 8B9D899A19310008004FA566 /* MainPage */; };
 		8B9D89A119310C64004FA566 /* CCScrollLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D899D19310C64004FA566 /* CCScrollLayer.cpp */; };
 		8B9D89A219310C64004FA566 /* MyRatingStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D899F19310C64004FA566 /* MyRatingStar.cpp */; };
@@ -857,6 +858,7 @@
 		8B39E2651930A1E600BDE159 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		8B39E2671930A2E100BDE159 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		8B39E2681930A2E100BDE159 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		8B8A1C6A1933A0F2009FD999 /* Button */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Button; path = Resources/Button; sourceTree = "<group>"; };
 		8B9D899A19310008004FA566 /* MainPage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MainPage; path = Resources/MainPage; sourceTree = "<group>"; };
 		8B9D899D19310C64004FA566 /* CCScrollLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCScrollLayer.cpp; sourceTree = "<group>"; };
 		8B9D899E19310C64004FA566 /* CCScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollLayer.h; sourceTree = "<group>"; };
@@ -932,6 +934,7 @@
 		8B39DEF41930A07A00BDE159 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B8A1C6A1933A0F2009FD999 /* Button */,
 				8B1B95CC19321490005F5192 /* Content */,
 				8B1B95C41931B1CA005F5192 /* Setting */,
 				8B9D899A19310008004FA566 /* MainPage */,
@@ -2095,6 +2098,7 @@
 				8B39DF061930A07B00BDE159 /* Icon.png in Resources */,
 				8B39DFA61930A07B00BDE159 /* ChangeLog in Resources */,
 				8B1B95CD19321490005F5192 /* Content in Resources */,
+				8B8A1C6B1933A0F2009FD999 /* Button in Resources */,
 				8B39DEF61930A07B00BDE159 /* CloseNormal.png in Resources */,
 				8B39DF021930A07B00BDE159 /* Icon-Small.png in Resources */,
 				8B39DEFE1930A07B00BDE159 /* Icon-72.png in Resources */,
